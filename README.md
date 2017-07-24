@@ -1,4 +1,6 @@
 # React-Tac-Toe
+Left off with Storing the history: https://facebook.github.io/react/tutorial/tutorial.html#storing-a-history
+
 ### FB's tutorial: https://facebook.github.io/react/tutorial/tutorial.html
 
 ### Support communities: https://facebook.github.io/react/community/support.html
