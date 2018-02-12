@@ -6,7 +6,7 @@ class Square extends Component {
   render() {
     return (
       <button className="square"
-              onClick={() => alert('click')}>
+              onClick={() => alert(`You clicked on square: ${this.props.value}`)}>
         {this.props.value}
       </button>
     );
