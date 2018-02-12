@@ -21,7 +21,7 @@ class Square extends Component {
 }
 
 class Board extends Component {
-consotructor(props) {
+constructor(props) {
   super(props);
   this.state = {
     square: Array(9).fill(null),
