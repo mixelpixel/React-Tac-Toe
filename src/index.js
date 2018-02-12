@@ -13,12 +13,8 @@ class Square extends Component {
   render() {
     return (
       <button className="square"
-              onClick={() => {
-                alert(`You clicked on square: ${this.props.value}`);
-                this.setState({value: 'X'});
-                alert(`Right now the state.value is ${this.state.value}\n...but watch ${this.props.value} change to 'X'!`);
-              }}>
-        {this.state.value ? this.state.value : this.props.value}
+              onClick={() => this.setState({value: 'X'})}>
+        {this.state.value}
       </button>
     );
   }
