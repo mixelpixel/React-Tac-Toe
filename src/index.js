@@ -14,13 +14,13 @@ import './index.css';
 //   }
 // }
 // ABOVE and BELOW are IDENTICAL
-function Square(props) {
+const Square = (props) => {
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
     </button>
   );
-}
+};
 
 class Board extends Component {
   constructor(props) {
@@ -96,6 +96,7 @@ class Game extends Component {
     );
   }
 }
+
 
 
 // ========================================
