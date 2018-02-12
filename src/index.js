@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// This code makes use of hoisting: https://codepen.io/gaearon/pen/LyyXgK?editors=0010
+// but for some reason, not the following?????
 const calculateWinner = (squares) => {
   const lines = [
     [0, 1, 2],
